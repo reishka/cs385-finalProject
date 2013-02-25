@@ -10,7 +10,7 @@ module register_16_bit(out, in, clk);
     input clk;
     output [15:0] out;
 
-    D_flip_flop d0(in[0], clk, out[0]),
+    d_flip_flop d0(in[0], clk, out[0]),
                 d1(in[1], clk, out[1]),
                 d2(in[2], clk, out[2]),
                 d3(in[3], clk, out[3]),
