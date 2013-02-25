@@ -1,1 +1,0 @@
-iverilog -Wall -o test_cpu mips-simple.v alu_16_bit.v alu_4_bit.v alu_4_bit_last.v alu_1_bit.v alu_1_bit_msb.v full_adder.v half_adder.v mux_2_to_1.v mux_4_to_1.v register_file_4_by_16.v decoder_2_to_4.v mux_64_to_16.v register_16_bit.v D_flip_flop.v
