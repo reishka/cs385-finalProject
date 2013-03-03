@@ -18,8 +18,6 @@ module MainControl(Op,Control);
         4'b0101: Control <= 8'b01110010; // lw    
         4'b0110: Control <= 8'b00110010; // sw    
         4'b0111: Control <= 8'b10001111; // slt    
-        4'b1000: Control <= 8'b00000110; // beq    
-        4'b1001: Control <= 8'b00000110; // bne    
     endcase
 endmodule
 
