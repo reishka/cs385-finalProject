@@ -72,7 +72,7 @@ always #1 clock = ~clock;
 
 initial begin
     $display ("time clock InstrReg       WriteData");
-    $monitor ("%2d   %b     %h %h", $time, clock, InstrReg, WriteData);
+    $monitor ("%2d   %b     %h           %h", $time, clock, InstrReg, WriteData);
     clock = 1;
     #18 $finish;
 end
