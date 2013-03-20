@@ -1,6 +1,6 @@
 // cpu2.v
 // Michael P. Lang
-// 25 February 2013
+// 20 March 2013
 // michael@mplang.net
 // Main CPU module.
 
@@ -37,8 +37,8 @@ module CPU (clock, WriteData, InstrReg);
     initial begin
         $readmemh("input2.hex", InstrMem);
 
-        DataMem [0] = 16'h7;
-        DataMem [1] = 16'h5;
+        DataMem [0] = 16'h8;
+        DataMem [1] = 16'ha;
     end
 
     initial PC = 0;
@@ -83,6 +83,6 @@ initial begin
     $display ("time clock InstrReg       WriteData");
     $monitor ("%2d   %b     %h           %h", $time, clock, InstrReg, WriteData);
     clock = 1;
-    #24 $finish;
+    #32 $finish;
 end
 endmodule

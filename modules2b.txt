@@ -1,4 +1,4 @@
-cpu2.v
+cpu2b.v
 alu_16_bit.v
 alu_4_bit.v
 alu_4_bit_last.v
