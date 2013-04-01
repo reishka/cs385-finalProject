@@ -8,4 +8,8 @@ To run: vvp test_cpu<br /><br />
 To compile code for Report 2: iverilog -o test_cpu_a -f modules2a.txt<br />
                               iverilog -o test_cpu_b -f modules2b.txt<br />
 To run: vvp test_cpu_a<br />
-To run: vvp test_cpu_a<br />
+To run: vvp test_cpu_b<br /><br />
+To compile code for Report 3: iverilog -o test_cpu_3a -f modules3a.txt<br />
+                              iverilog -o test_cpu_3b -f modules3b.txt<br />
+To run: vvp test_cpu_3a<br />
+To run: vvp test_cpu_3b<br /><br />

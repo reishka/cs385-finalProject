@@ -18,7 +18,7 @@ module CPU (clock, PC, IFID_InstrReg, IDEX_InstrReg, WriteData);
 
     // Read hex data from text file into InstrMem
     initial
-        $readmemh("input3.hex", InstrMem);
+        $readmemh("input3a.hex", InstrMem);
 
     // ID
     reg [15:0] IDEX_InstrReg;
