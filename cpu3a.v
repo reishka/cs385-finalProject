@@ -79,7 +79,7 @@ always #1 clock = ~clock;
 
 initial begin
     $display ("time PC  IFID_IR  IDEX_IR  WD");
-    $monitor ("%2d  %3d %h %h %h", $time, PC, IFID_InstrReg, IDEX_InstrReg, WriteData);
+    $monitor ("%2d  %3d  %h     %h     %h", $time, PC, IFID_InstrReg, IDEX_InstrReg, WriteData);
     clock = 1;
     #29 $finish;
 end
