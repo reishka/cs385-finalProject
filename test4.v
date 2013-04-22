@@ -11,6 +11,6 @@ module test ();
         $display ("time PC  IFID_IR  IDEX_IR  EXMEM_IR MEMWB_IR WD");
         $monitor ("%2d  %3d  %h %h %h %h %h", $time, PC, IFID_InstrReg, IDEX_InstrReg, EXMEM_InstrReg, MEMWB_InstrReg, WriteData);
         clock = 1;
-        #56 $finish;
+        #80 $finish;
     end
 endmodule

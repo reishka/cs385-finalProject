@@ -1,5 +1,5 @@
 cpu4a.v
-main_control.v
+main_control4.v
 alu_16_bit.v
 alu_4_bit.v
 alu_4_bit_last.v
@@ -17,4 +17,6 @@ mux_4_to_2.v
 register_16_bit.v
 d_latch.v
 d_flip_flop.v
+shift_left_logical.v
+shift_right_logical.v
 test4.v
