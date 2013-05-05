@@ -20,8 +20,8 @@ module CPU (clock, PC, IFID_InstrReg, IDEX_InstrReg, EXMEM_InstrReg, MEMWB_Instr
     initial begin
         $readmemh("input4.hex", InstrMem);
 
-        DataMem[0] = 16'h400;
-        DataMem[1] = 16'hfad;
+        DataMem[0] = 16'h1ea3;
+        DataMem[1] = 16'h0003;
     end
 
     // ID

@@ -22,5 +22,6 @@ module main_control(Op,Control);
         4'b1001: Control <= 12'b001000000110; // bne
         4'b1010: Control <= 12'b100000110000; // sll
         4'b1011: Control <= 12'b100000101000; // srl
+        4'b1100: Control <= 12'b011000000110; // j
     endcase
 endmodule
